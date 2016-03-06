@@ -1,7 +1,7 @@
 const sf = require('sheetify')
 
 sf`
-  @import './import.css';
+  @import './import.scss';
   .foo {
     .bar {
       color: blue;
