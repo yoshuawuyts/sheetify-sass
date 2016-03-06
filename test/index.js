@@ -2,15 +2,16 @@ const browserify = require('browserify')
 const path = require('path')
 const test = require('tape')
 const bl = require('bl')
-
-const sheetifySass = require('./')
+const fs = require('fs')
 
 test('sheetify-sass', function (t) {
   t.test('should transform sass', function (t) {
-    t.plan(1)
+    const expected = fs.readFileSync(path.join(__dirname, 'expected.css'))
+
+    t.plan(2)
     browserify(path.join(__dirname, 'source.js'))
       .transform('sheetify/transform', {
-        use: [ sheetifySass ]
+        use: [ './' ]
       })
       .plugin('css-extract', {
         out: createWs
@@ -19,7 +20,7 @@ test('sheetify-sass', function (t) {
     function createWs () {
       return bl(function (err, buf) {
         t.ifError(err, 'no error')
-        console.error(String(buf))
+        t.equal(String(buf).trim(), String(expected).trim())
       })
     }
   })
