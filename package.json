@@ -1,0 +1,37 @@
+{
+  "name": "sheetify-sass",
+  "version": "1.0.0",
+  "description": "SASS plugin for Sheetify",
+  "main": "index.js",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "test": "standard && npm run deps && NODE_ENV=test node test",
+    "test:cov": "standard && npm run deps && NODE_ENV=test istanbul cover test/index.js"
+  },
+  "repository": "yoshuawuyts/sheetify-sass",
+  "keywords": [
+    "sass",
+    "sheetify",
+    "libsass",
+    "c",
+    "fast",
+    "lol",
+    "transform",
+    "plugin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^3.4.2"
+  },
+  "devDependencies": {
+    "bl": "^1.1.2",
+    "browserify": "^13.0.0",
+    "css-extract": "^1.0.0",
+    "dependency-check": "^2.5.1",
+    "insert-css": "^0.2.0",
+    "istanbul": "^0.4.2",
+    "sheetify": "^4.1.0",
+    "standard": "^6.0.7",
+    "tape": "^4.5.0"
+  }
+}
