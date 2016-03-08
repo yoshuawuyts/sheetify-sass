@@ -30,10 +30,10 @@ $ npm install sheetify-sass
 [1]: https://nodejs.org/api/documentation.html#documentation_stability_index
 [2]: https://img.shields.io/npm/v/sheetify-sass.svg?style=flat-square
 [3]: https://npmjs.org/package/sheetify-sass
-[4]: https://img.shields.io/travis/yoshuawuyts/sheetify-sass/master.svg?style=flat-square
-[5]: https://travis-ci.org/yoshuawuyts/sheetify-sass
-[6]: https://img.shields.io/codecov/c/github/yoshuawuyts/sheetify-sass/master.svg?style=flat-square
-[7]: https://codecov.io/github/yoshuawuyts/sheetify-sass
+[4]: https://img.shields.io/travis/stackcss/sheetify-sass/master.svg?style=flat-square
+[5]: https://travis-ci.org/stackcss/sheetify-sass
+[6]: https://img.shields.io/codecov/c/github/stackcss/sheetify-sass/master.svg?style=flat-square
+[7]: https://codecov.io/github/stackcss/sheetify-sass
 [8]: http://img.shields.io/npm/dm/sheetify-sass.svg?style=flat-square
 [9]: https://npmjs.org/package/sheetify-sass
 [10]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
