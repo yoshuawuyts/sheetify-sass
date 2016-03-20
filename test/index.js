@@ -5,7 +5,7 @@ const bl = require('bl')
 const fs = require('fs')
 
 test('sheetify-sass', function (t) {
-  t.test('should transform sass', function (t) {
+  t.test('should transform sass and scss', function (t) {
     const expected = fs.readFileSync(path.join(__dirname, 'expected.css'))
 
     t.plan(2)

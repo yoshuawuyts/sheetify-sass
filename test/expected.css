@@ -1,5 +1,8 @@
-._fa09a948 .baz {
+._30135bb0 .baz {
   color: purple; }
 
-._fa09a948 .foo .bar {
+._30135bb0 .qux {
+  color: yellow; }
+
+._30135bb0 .foo .bar {
   color: blue; }
