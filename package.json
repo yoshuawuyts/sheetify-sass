@@ -32,7 +32,7 @@
     "insert-css": "^0.2.0",
     "istanbul": "^0.4.2",
     "sheetify": "^5.0.0",
-    "standard": "^6.0.7",
+    "standard": "^7.0.1",
     "tape": "^4.5.0"
   }
 }
