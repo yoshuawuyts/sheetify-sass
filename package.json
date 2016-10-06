@@ -29,7 +29,7 @@
     "browserify": "^13.0.0",
     "css-extract": "^1.0.0",
     "dependency-check": "^2.5.1",
-    "insert-css": "^0.2.0",
+    "insert-css": "^1.0.0",
     "istanbul": "^0.4.2",
     "sheetify": "^5.0.0",
     "standard": "^8.0.0",
