@@ -10,8 +10,8 @@ test('sheetify-sass', function (t) {
 
     t.plan(2)
     browserify(path.join(__dirname, 'source.js'))
-      .transform('sheetify/transform', {
-        use: [ './' ]
+      .transform('sheetify', {
+        transform: [ './' ]
       })
       .plugin('css-extract', {
         out: createWs
