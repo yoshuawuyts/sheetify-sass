@@ -1,6 +1,6 @@
 {
   "name": "sheetify-sass",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "SASS plugin for Sheetify",
   "main": "index.js",
   "scripts": {
