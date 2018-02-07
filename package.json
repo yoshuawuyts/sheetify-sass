@@ -31,7 +31,7 @@
     "dependency-check": "^2.9.1",
     "insert-css": "^2.0.0",
     "istanbul": "^0.4.5",
-    "sheetify": "^7.0.0",
+    "sheetify": "^7.2.0",
     "standard": "^10.0.3",
     "tape": "^4.8.0"
   }
