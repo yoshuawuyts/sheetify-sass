@@ -14,6 +14,9 @@ function sheetifySass (filename, source, options, done) {
 
   sass.render(sassOpts, function (err, res) {
     if (err) return done(err)
-    done(null, String(res.css))
+    done(null, {
+      css: String(res.css),
+      files: res.includedFiles
+    })
   })
 }
