@@ -6,7 +6,7 @@ SASS plugin for Sheetify.
 
 ## Command line
 ```sh
-$ browserify ./test/source.js -t [ sheetify/transform -u sheetify-sass ]
+$ browserify ./test/source.js -t [ sheetify/transform -t sheetify-sass ]
 ```
 
 ## JS api
@@ -14,7 +14,7 @@ $ browserify ./test/source.js -t [ sheetify/transform -u sheetify-sass ]
 const browserify = require('browserify')
 
 browserify()
-  .transform('sheetify/transform', { use: [ 'sheetify-sass' ] })
+  .transform('sheetify/transform', { transform: [ 'sheetify-sass' ] })
   .bundle()
 ```
 
