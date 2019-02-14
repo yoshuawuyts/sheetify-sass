@@ -16,7 +16,7 @@ function sheetifySass (filename, source, options, done) {
     if (err) return done(err)
     done(null, {
       css: String(res.css),
-      files: res.includedFiles
+      files: res.stats.includedFiles
     })
   })
 }
