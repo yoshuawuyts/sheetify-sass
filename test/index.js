@@ -20,7 +20,7 @@ test('sheetify-sass', function (t) {
         })
       })
       .transform('sheetify', {
-        transform: [ './' ]
+        transform: ['./']
       })
       .plugin('css-extract', {
         out: createWs
@@ -43,7 +43,7 @@ test('sheetify-sass', function (t) {
 
     browserify(path.join(__dirname, 'error.js'))
       .transform('sheetify', {
-        transform: [ './' ]
+        transform: ['./']
       })
       .bundle(function (err) {
         t.ok(err)
