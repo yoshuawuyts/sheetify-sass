@@ -31,7 +31,7 @@
     "dependency-check": "^2.10.1",
     "insert-css": "^2.0.0",
     "nyc": "^14.1.1",
-    "sheetify": "^7.4.0",
+    "sheetify": "^8.0.0",
     "standard": "^13.0.0",
     "tape": "^4.11.0"
   }
